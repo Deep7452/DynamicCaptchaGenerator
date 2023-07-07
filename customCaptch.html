@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="randon_capcha.css">
+</head>
+<body>
+    <H1> Captcha Code Generator</H1>
+    <div id ="box">
+        <p><S>
+            #AX2Y
+            </S>
+            <img src ="refresh.png" height="45px" style=  "position: absolute; top:280px; left: 890px;" 
+            onclick="myCaptcha()">
+        </p>
+        <input type="text" class="t" id="myInput" placeholder="Enter your captcha" autofocus/><br><br>
+        <i></i>
+        <button onclick="checkCaptcha()"> SAVE</button>
+
+    </div>
+    <script src ="captcha.js"></script>
+</body>
+
+</html>
